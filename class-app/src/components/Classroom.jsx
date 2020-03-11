@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import Student from './Student';
 
 class Classroom extends Component {
+    constructor(props){
+        super(props);
+    };
     render() {
         let studentArray = ["Chris", "Mary", "Charles", "Jeff", "Brandon", "Andrew", "Takeallah"]
         return (

@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-function Greetings() {
-  return (
-    <div className="App">
-      <h3>Welcome!</h3>
-    </div>
-  );
+class Greetings extends Component {
+  constructor(props){
+      super(props);
+  };
+  render() {
+      return (
+          <div>
+              <h4>Hello</h4>
+          </div>
+      );
+  }
 }
 
 export default Greetings;
